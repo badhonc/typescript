@@ -1,0 +1,24 @@
+"use strict";
+let fname, lname;
+fname = "sarah";
+lname = "sar";
+let fullname = fname.toUpperCase() + lname.toUpperCase();
+let newentry;
+newentry = ["aas", "sadfew", "saas"];
+newentry.push(fullname);
+console.log(newentry);
+let numList;
+let numList2;
+numList = [1, 2, 3, 4, 5];
+numList2 = [6, 15, 11, 7, 8, 9];
+let results = numList.filter(x => x > 2);
+let results2 = numList2.sort(function (a, b) { return a - b; });
+let sum = results2.reduce((a, b) => a + b);
+let empf = newentry.find(emp => emp == "saas");
+console.log(results);
+console.log(results2);
+console.log(empf);
+console.log(sum);
+let c = 2;
+console.log(c);
+//# sourceMappingURL=datatypes.js.map
